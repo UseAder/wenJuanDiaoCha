@@ -1,0 +1,21 @@
+<template name="timu-template">
+  <view class='b-investigate' style='background-image: url("../../../images/timu_07.png")'>
+    <view class='questionnaire-timu'>
+      <view class='questionnaire-timu-title'>
+    <text>{{title}}</text>
+      </view>
+      <view class='questionnaire-timu-select'>
+        <view class="{{state==index?'active':''}}" wx:for="{{list}}" wx:key='index' data-key='{{index}}' bindtap="select_wenti"  >
+        {{list[index]}}
+        </view>
+       
+
+      </view>
+    </view>
+    <view class='questionnaire-timu-button'>
+      <button bindtap='goToPrev'>{{prev}}</button>
+      <button class='active' bindtap='goToNext'>{{next}}</button>
+    </view>
+  </view>
+
+</template>

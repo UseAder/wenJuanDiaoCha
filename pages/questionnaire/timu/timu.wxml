@@ -1,0 +1,7 @@
+<import src="../../template/template-timu/template-timu.wxml"/>
+<view class="container">
+  <template is="timu-template" data="{{...timuTemplate[timuIndex],selectWentiIndex}}"></template>
+
+
+
+</view>

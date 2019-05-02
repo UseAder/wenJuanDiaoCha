@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<!-- <view style="background:url('')"></view> -->
+
+<view class='b-investigate' style='background-image: url("../../images/shouye_03.png")'>
+  <view class='b-investigate-explain' hidden='{{!localeType}}'>
+    <view>请打开问卷填写表格,</view>
+    <view >以便我们为您提供更好的服务.</view>
+  </view>
+  <view class='b-investigate-explain' hidden='{{localeType}}'>
+    <view>Kindly tick the checkbox below,</view>
+    <view>In order for us to serve you better width the information received</view>
+  </view>
+  <view class='b-investigate-language'>
+    <text hidden='{{!localeType}}'>语言</text>
+    <text hidden='{{localeType}}'>Language</text>
+    <view class='flex'>
+      <image src='../../images/yuyan_13.png' class="{{localeType?'':'active'}}" bindtap="localeMethod"></image>
+      <image src='../../images/yuyan_15.png' class="{{localeType?'active':''}}" bindtap="localeMethod"></image>
+    </view>
+  </view>
+  <button class='b-investigate-button' bindtap='goToQuestionnaire'>
+    <text hidden='{{!localeType}}'>打开问卷</text>
+    <text hidden='{{localeType}}'>Open</text>
+  </button>
+</view>
+

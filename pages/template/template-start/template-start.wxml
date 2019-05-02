@@ -1,0 +1,52 @@
+<template name="start-template">
+  <view class="b-investigate" style="background-image: url('../../../images/kaishi_05.png')">
+    <view class="start-language">
+      <view bindtap="localeMethod" class="{{localeType?'':'active'}}">
+        中文{{localeType}}
+      </view>
+      <view class="start-language-xian">
+      </view>
+      <view bindtap="localeMethod" class="{{localeType?'active':''}}">
+        English
+      </view>
+    </view>
+    <view class="questionnaire-title">
+      <view>{{ExpoName}}</view>
+      <view class="questionnaire-title-time">2018.8.25-2018.9.5</view>
+    </view>
+
+    <form>
+      <view class="questionnaire-start">
+        <view class="start__title">{{Company}}</view>
+        <input name="company" placeholder="" />
+      </view>
+      <view class="questionnaire-start">
+        <view class="start__title">{{Name}}</view>
+        <input name="name" placeholder="" />
+      </view>
+      <view class="questionnaire-start">
+        <view class="start__title">{{Position}}</view>
+        <input name="position" placeholder="" />
+      </view>
+      <view class="questionnaire-start">
+        <view class="start__title">{{Phone}}</view>
+        <input name="position" placeholder="" />
+      </view>
+      <view class="questionnaire-start">
+        <view class="start__title">{{Email}}</view>
+        <input name="position" placeholder="" />
+      </view>
+      <view class="questionnaire-start-uploader">
+        <image src="../../../images/shangchuan_03.png">
+        </image>
+      </view>
+      <view class="btn-area">
+        <button class="b-investigate-button" bindtap="goToNext">
+          {{next}}
+        </button>
+        <!-- <button form-type="submit">Submit</button>
+      <button form-type="reset">Reset</button> -->
+      </view>
+    </form>
+  </view>
+</template>

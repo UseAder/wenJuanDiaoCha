@@ -1,0 +1,4 @@
+<import src="../../template/template-start/template-start.wxml"/>
+<view class="container">
+  <template is="start-template" data="{{...startTemplate,localeType}}"></template>
+</view>

@@ -1,0 +1,20 @@
+/* pages/questionnaire/upload/upload.wxss */
+.questionnaire-uploader{
+  margin-top: 58rpx;
+}
+.questionnaire-start-uploader{
+  margin-top:38rpx;
+
+}
+
+.questionnaire-uploader-memo{
+  font-size: 29rpx;opacity: 0.5;margin:0 54rpx;
+} 
+.memo__title{ 
+  margin-top: 8rpx;
+  margin-bottom: 3rpx
+}
+.questionnaire-uploader-memo textarea{
+  border: 1rpx solid rgba(255, 255, 255, 0.2);
+  width: 642rpx;height: 136rpx;margin: 0 auto;border-radius: 10rpx;
+}

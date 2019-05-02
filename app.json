@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/questionnaire/timu/timu",
+    
+    "pages/questionnaire/start/start",
+    
+    "pages/questionnaire/upload/upload",
+    "pages/questionnaire/end/end"
+    
+    
+    
+    
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "问卷调查表",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

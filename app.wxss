@@ -1,0 +1,50 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+  
+} 
+page{
+  color: #fff
+}
+.b-investigate{
+    position:fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background-size:100%;
+ /* background-image: url("../../images/shouye_03.png") */
+}
+image{
+  width: 100%;height: 100%;
+}
+.b-investigate-button{
+  width: 362rpx;
+  height: 88rpx;
+  margin: 0 auto;
+  font-size: 34rpx;
+  color: #000;background: #ffec4d;
+  margin-top: 50rpx;
+}
+.questionnaire-start-uploader{
+  width:641rpx;height: 360rpx;
+  margin: 0 auto;margin-top: 22rpx;
+  position: relative;
+}
+.questionnaire-start-uploader .uploader-explain{
+ position: absolute;text-align: center;width: 100%;bottom: 40rpx;
+ color: rgba(255, 255, 255, 0.6);font-size: 29rpx;
+}
+.questionnaire-start-uploader .uploader-explain .last{font-size: 25 rpx;
+}
+
+
+.b-investigate{
+  line-height: 1;
+}

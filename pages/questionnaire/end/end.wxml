@@ -1,0 +1,33 @@
+<view class='b-investigate' style='background-image: url("../../../images/zuihou_07.png")'>
+  <view class='questionnaire-end'>
+    <view class='questionnaire-end-logo'>
+      <image src='../../../images/wancheng_03.png'>
+      </image>
+    </view>
+    <view class='questionnaire-end-title' hidden='{{!localeType}}'>
+      <view>提交成功
+      </view>
+      <view>感谢您的宝贵时间！
+      </view>
+    </view>
+    <view class='questionnaire-end-title' hidden='{{localeType}}'>
+      <view>Submitted successfully
+      </view>
+      <view>Thanks for your time.
+      </view>
+    </view>
+    <view class='questionnaire-end-button'>
+      <button class='b-investigate-button'>
+        
+        <text hidden='{{!localeType}}'>确认</text>
+    <text hidden='{{localeType}}'>Confirm</text>
+      </button>
+    </view>
+     <view class='questionnaire-end-footer' hidden='{{!localeType}}'>
+深圳克莱鹏科技有限公司
+     </view>
+     <view class='questionnaire-end-footer' hidden='{{localeType}}'>
+Shenzhen Smoant Technology Co., Ltd
+     </view>
+  </view>
+</view>

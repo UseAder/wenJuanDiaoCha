@@ -1,0 +1,30 @@
+<view class='b-investigate' style='background-image: url("../../../images/kaishi_05.png")'>
+
+    <view class='questionnaire-uploader'>
+      <view class='questionnaire-start-uploader'>
+        <image src='../../../images/shangchuan_03.png'>
+        </image>
+        <view class='uploader-explain'>
+            <view>上传照片</view>
+            <view class='last'>客户+业务员</view>
+        </view>
+      </view>
+      <view class='questionnaire-start-uploader'>
+        <image src='../../../images/shangchuan_03.png'>
+        </image>
+        <view class='uploader-explain'>
+            <view>上传照片</view>
+            <view class='last'>客户+产品</view>
+        </view>
+      </view>
+    </view>
+    
+    <view class="questionnaire-uploader-memo">
+      <view class="memo__title">备注</view>
+      <textarea name="memo" placeholder="" />
+    </view>
+    <button class='b-investigate-button' bindtap='goToNext'>
+    提交问卷
+  </button>
+
+</view>
